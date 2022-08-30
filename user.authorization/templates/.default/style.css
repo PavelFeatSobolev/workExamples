@@ -1,0 +1,26 @@
+.authBlock {width: 280px;padding: 10px;}
+
+.authBlock h4 {text-align: center;margin: 15px 0;}
+.authBlock .error {color:red; font-size: 12px;}
+.authBlock .notice {color:green; font-size: 12px;}
+
+.authBlock label {display: block; height:auto!important; line-height: unset!important; margin:10px 0; }
+.authBlock label span {font-size: 12px;}
+.authBlock input[type="checkbox"] {display: none;}
+.authBlock input[type="text"] { width: 250px; height: 21px; border: 1px solid lightgrey; padding: 3px 5px; }
+.authBlock .phoneUser, .authBlock .phoneCode {width: 150px!important; display: inline-block;
+    margin-left: 10px;}
+
+.authBlock p {margin-top: 20px;font-size: 12px!important;}
+.authBlock p.phoneExample {margin: 3px 0 0 34px;color: #565656;}
+
+.authBlock .buttonBlock .button {background-color: #FF7E00;font-family: AFuturaRound;color: #FFF;font-size: 13px;
+    font-weight: bold;margin: 12px 0;padding: 6px 30px;text-transform: uppercase;border: 1px #F39C12 solid;cursor: pointer;
+    -webkit-border-radius: 5px;  -moz-border-radius: 5px;border-radius: 5px;text-align: center;}
+
+.authBlock .buttonBlock .button.disabled {background-color: #FF7E00;}
+
+.authBlock .inputBlockCode {display:none;}
+.authBlock .repeatCode {margin-top: 10px;  color: lightgray; cursor: pointer;}
+
+.authBlock .formPreloader {display:none;background:url(/local/images/preloaderCircles.svg) center center no-repeat;width:100%;height:100px;}
